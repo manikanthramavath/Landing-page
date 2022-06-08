@@ -23,11 +23,11 @@ function addZeroNum(num){
     return num < 0 ? '0${num}' : num
 }
 
-document.querySelector('.container count h3').style.display = 'none';
+document.querySelector('.container h3').style.display = 'none';
 document.querySelector('.container').classList.add('spinner-1');
 setTimeout(() =>{
     document.querySelector('.container').classList.remove('spinner-1');
-    document.querySelector('.container count h3').style.display = 'block';
+    document.querySelector('.container h3').style.display = 'block';
 }
 
 ,4000)
